@@ -1,21 +1,23 @@
 {
-    "name": "lab07",
+    "name": "server",
     "version": "1.0.0",
     "main": "index.js",
-    "type": "module",
     "scripts": {
-        "dev": "nodemon index.js"
+        "dev": "npx tsx --watch index.js"
     },
     "keywords": [],
-    "author": "Ignatius Nevan Defie",
-    "license": "",
-    "description": "Assignment 07",
+    "author": "",
+    "license": "ISC",
+    "description": "",
     "dependencies": {
+        "@faker-js/faker": "^9.6.0",
+        "@types/express": "^5.0.0",
+        "dotenv": "^16.4.7",
         "express": "^4.21.2",
         "mongodb": "^6.14.2"
     },
     "devDependencies": {
-        "@types/express": "^5.0.0",
-        "nodemon": "^3.1.9"
+        "tsx": "^4.19.3",
+        "typescript": "^5.8.2"
     }
 }

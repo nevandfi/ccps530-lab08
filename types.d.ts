@@ -1,4 +1,4 @@
-interface IBook {
+export interface IBook {
     title: string;
     author: string;
     publisher: string;
@@ -6,7 +6,7 @@ interface IBook {
     website: string;
 }
 
-interface IPageOptions {
+export interface IPageOptions {
     title: string;
     lang: string;
 }
